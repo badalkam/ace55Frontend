@@ -65,8 +65,8 @@ export default function About() {
             <p className="text-gray-700 text-center">Trained By Ethnus Training Services Private Limited Bengaluru</p>
             <p className="text-gray-700 text-center">badalkamble@gmail.com</p>
             <p className="text-gray-700 text-center"><a href="https://github.com/badalkam?tab=repositories">Github repositories</a></p>
-            <p className="text-gray-700 text-center"><Link>linkdin</Link></p>
-            <p className="text-gray-700 text-center"><Link>nokri</Link></p>
+            {/* <p className="text-gray-700 text-center"><Link>linkdin</Link></p>
+            <p className="text-gray-700 text-center"><Link>nokri</Link></p> */}
           </div>
 
           {/* <div className="team-member">
