@@ -54,6 +54,7 @@ function App() {
         <Route path="/item/:id" element={<Item/>} />
         <Route path="/list" element={<List/>} />
         <Route path="/list1" element={<List1/>} />
+        {/* <Route path="/home" element={<ProfileList/>} /> */}
         
         
       </Routes>

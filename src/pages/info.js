@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import "./style.css";
+// import "./style.css";
 import Carousel from "react-bootstrap/Carousel";
 import { Link, useNavigate } from "react-router-dom";
 import Button from "react-bootstrap/Button";
@@ -9,7 +9,7 @@ import Button from "react-bootstrap/Button";
 // import Layout from "../components/Layout";
 import Cards from "../style/style.css";
 
-export default function Home2() {
+export default function Info() {
   const [results, setResults] = useState([]);
   const navigate = useNavigate();
   const handleonebhk = () => {

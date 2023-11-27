@@ -56,13 +56,13 @@ export async function getUser(username){
 export async function registerUser({username,password,email}){
     try {
 
-        const{data:{msg},status}=await axios.post('http://localhost:5500/api/register',{username,password,email})
+        const{data:{msg},status}=await axios.post('https://serverace.onrender.com/api/register',{username,password,email})
        
 
         // send mail
         if(status===201){
             const msg = "you have register succusefully"
-            await axios.post('http://localhost:5500/api/registerMail',{username,userEmail:email,text:msg,subject:"registation confirmation"})
+            await axios.post('https://serverace.onrender.com/api/registerMail',{username,userEmail:email,text:msg,subject:"registation confirmation"})
         }
         return Promise.resolve(msg);
 
@@ -161,7 +161,7 @@ export async function registerMail(username,password,email,text){
 
 export async function login(username,password){
     try {
-        const {data,status}= await axios.get('http://localhost:5500/api/login',{username,password})
+        const {data,status}= await axios.get('https://serverace.onrender.com/api/login',{username,password})
         return {data,status}
         
     } catch (error) {
