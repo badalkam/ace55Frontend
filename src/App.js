@@ -11,7 +11,7 @@ import Create from "./pages/Create"
 import List1 from "./pages/List1";
 import Recover from "./pages/Recover";
 import Reset from "./pages/Reset";
-import ProfileList from "./pages/ProfileList";
+
 import List3 from "./pages/list3";
 import List4 from "./pages/list4";
 import Edit from "./pages//Edit";
